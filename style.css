@@ -1,0 +1,32 @@
+:root{
+	--main-bg: url(media/rozy.jpg);
+}
+
+body{
+	background: var(--main-bg) ;
+	position: relative;
+}
+.blur{
+	position: absolute;
+	border: black 1px;
+	backdrop-filter: blur(5px);
+	color: white;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 20px;
+	padding: 25px 5px 25px 5px;
+	margin: 15px;
+}
+.sticker img{
+	position: absolute;
+	height: 150px;
+	width: auto;
+	top: 1400%;
+	right: 0;
+	rotate: 180deg;
+}
+.sticker1 img{
+	position: absolute;
+	height: 150px;
+	width: auto;
+	top: 1400%;
+}
